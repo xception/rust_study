@@ -494,23 +494,39 @@ This learning plan is designed for **2-3 hours per day** of focused study. Each 
 
 ## Week 13: Final Project & Advanced Topics
 
-### Day 43-45: Final Project - Web Server (3 hours/day)
-- [ ] **Chapter 20: Final Project - Web Server (Part 1)**
+### Day 43: Final Project - Web Server Setup (3 hours)
+- [ ] **Chapter 20: Final Project - Web Server (Part 1a)**
   - [ ] Building a single-threaded web server
   - [ ] Listening to TCP connections
   - [ ] Reading HTTP requests
-  - [ ] Writing HTTP responses
-  - [ ] **Why building from scratch teaches fundamentals**
-- [ ] **Practice**: Build the basic web server
+- [ ] **Practice**: Start the basic web server
 
-### Day 46-47: Thread Pool (3 hours/day)
-- [ ] **Chapter 20: Final Project - Web Server (Part 2)**
-  - [ ] Turning single-threaded into multithreaded
+### Day 44: Complete Single-Threaded Web Server (3 hours)
+- [ ] **Chapter 20: Final Project - Web Server (Part 1b)**
+  - [ ] Writing HTTP responses
+  - [ ] Handling multiple requests
+  - [ ] **Why building from scratch teaches fundamentals**
+- [ ] **Practice**: Complete the basic web server
+
+### Day 45: Design Thread Pool (3 hours)
+- [ ] **Chapter 20: Final Project - Web Server (Part 2a)**
+  - [ ] Planning the multithreaded design
   - [ ] Designing a thread pool
-  - [ ] Implementing the thread pool
   - [ ] **Deep Dive**: Worker pattern and job queues
+- [ ] **Practice**: Design the thread pool architecture
+
+### Day 46: Implement Thread Pool (3 hours)
+- [ ] **Chapter 20: Final Project - Web Server (Part 2b)**
+  - [ ] Implementing the thread pool
+  - [ ] Turning single-threaded into multithreaded
+- [ ] **Practice**: Build the thread pool
+
+### Day 47: Complete Multithreaded Web Server (3 hours)
+- [ ] **Chapter 20: Final Project - Web Server (Part 2c)**
   - [ ] Graceful shutdown
-- [ ] **Practice**: Complete the multithreaded web server
+  - [ ] Testing the multithreaded server
+  - [ ] Performance comparison
+- [ ] **Practice**: Complete and test the multithreaded web server
 - [ ] **Reflection**: What concurrency patterns did you use?
 
 ### Day 48: Review and Next Steps (2-3 hours)
