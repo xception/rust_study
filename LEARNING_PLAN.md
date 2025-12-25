@@ -3,7 +3,7 @@
 This learning plan is designed for **2-3 hours per day** of focused study. Each session emphasizes understanding **why** things work the way they do, not just memorizing syntax.
 
 ## How to Use This Plan
-- [ ] Read this entire document first to understand the approach
+- [x] Read this entire document first to understand the approach
 - Check off items as you complete them
 - Each chapter has estimated time based on 2-3 hour sessions
 - Focus on understanding concepts deeply, not rushing through
@@ -15,14 +15,13 @@ This learning plan is designed for **2-3 hours per day** of focused study. Each 
 ## Week 1: Getting Started & Basics
 
 ### Day 1: Introduction & Setup (2-3 hours)
-- [ ] **Chapter 1: Getting Started**
-  - [ ] Install Rust (`rustup`)
-  - [ ] Set up your development environment
-  - [ ] Create your first "Hello, World!" program
-  - [ ] Understand Cargo basics (`cargo new`, `cargo build`, `cargo run`)
-  - [ ] **Why This Matters**: Cargo is Rust's package manager and build system. Understanding it now saves time later.
-- [ ] **Rustlings**: Complete `intro` exercises
-- [ ] **Reflection**: Write down what makes Rust different from languages you know
+- [x] **Chapter 1: Getting Started**
+  - [x] Install Rust (`rustup`)
+  - [x] Set up your development environment
+  - [x] Create your first "Hello, World!" program
+  - [x] Understand Cargo basics (`cargo new`, `cargo build`, `cargo run`)
+  - [x] **Why This Matters**: Cargo is Rust's package manager and build system. Understanding it now saves time later.
+- [x] **Rustlings**: Complete `intro` exercises
 
 ### Day 2: Programming Concepts (2-3 hours)
 - [ ] **Chapter 3: Common Programming Concepts (Part 1)**

@@ -11,6 +11,27 @@
 *.sln.docstates
 *.env
 
+# Rust / Cargo
+/target/
+**/target/
+
+# Rustfmt backup files
+*.rs.bk
+
+# Cargo.lock
+# Keep Cargo.lock for binaries/apps; ignore it for libraries if you prefer.
+# (If you want to ignore it, uncomment next line)
+# Cargo.lock
+
+# Editor/OS noise (optional but common)
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
