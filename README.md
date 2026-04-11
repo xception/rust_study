@@ -1,106 +1,122 @@
-# Rust Study - Comprehensive Learning Journey
+# Rust Through Game Development - A Complete Learning Journey
 
-Welcome to my structured Rust learning repository! This is a self-taught journey through "The Rust Programming Language" book with a focus on deep understanding rather than memorization.
+A structured, self-taught path to learning Rust by building games. Every concept is motivated by a real game development problem, so you never learn syntax in a vacuum -- you learn it because your game needs it.
 
-## 🎯 Learning Philosophy
+## Learning Philosophy
 
-- **Understanding over Memorization**: Focus on understanding *why* concepts work, not just *what* they are
-- **Consistent Daily Practice**: 2-3 hours per day of focused learning
-- **Trackable Progress**: Clear checkboxes to mark completed work
-- **Spaced Repetition**: Regular revision schedule to reinforce learning
-- **Hands-on Practice**: Integration with rustlings exercises
+- **Build games, not toy examples.** Every Rust concept is introduced because a game project demands it.
+- **Understanding over memorization.** Focus on *why* Rust works this way, not just *what* the syntax is.
+- **Consistent daily practice.** 2-3 hours per day of focused work compounds fast.
+- **Spaced repetition.** Regular revision sessions prevent forgetting.
+- **Progressive complexity.** Start with terminal games, graduate to 2D engines, end with a polished Bevy project.
 
-## 📚 Learning Materials
+## Repository Structure
 
-### [LEARNING_PLAN.md](LEARNING_PLAN.md)
-A comprehensive 13-week learning plan covering:
-- All chapters of "The Rust Programming Language" book
-- 48 daily sessions (2-3 hours each)
-- Deep dives into fundamental concepts
-- Integration with rustlings exercises
-- Practical projects and exercises
-- Focus on understanding "why" over "what"
+```
+rust_study/
+├── README.md                  # You are here
+├── LEARNING_PLAN.md           # Complete 20-week roadmap with exercises & references
+├── REVISION_SCHEDULE.md       # Spaced repetition schedule tied to game milestones
+│
+├── phase1_fundamentals/       # Weeks 1-5: Core Rust via terminal games
+│   ├── week1/                 #   Setup, variables, control flow
+│   ├── week2/                 #   Ownership & borrowing
+│   ├── week3/                 #   Structs, enums, pattern matching
+│   ├── week4/                 #   Modules & collections
+│   └── week5/                 #   Error handling, generics, traits, lifetimes
+│
+├── phase2_game_foundations/   # Weeks 6-9: 2D game dev with macroquad
+│   ├── week6/                 #   Game loops, rendering, input
+│   ├── week7/                 #   Sprites, animation, collision
+│   ├── week8/                 #   Audio, UI, game states
+│   └── week9/                 #   Complete game: Breakout clone
+│
+├── phase3_intermediate/       # Weeks 10-14: Bevy ECS & systems
+│   ├── week10/                #   Bevy intro, ECS fundamentals
+│   ├── week11/                #   Sprites, input, physics in Bevy
+│   ├── week12/                #   Audio, UI, scenes in Bevy
+│   ├── week13/                #   Closures, iterators, smart pointers in game context
+│   └── week14/                #   Complete game: top-down shooter or platformer
+│
+├── phase4_advanced/           # Weeks 15-18: Advanced Rust for games
+│   ├── week15/                #   Concurrency & async for games
+│   ├── week16/                #   Unsafe, FFI, advanced traits
+│   ├── week17/                #   Networking & multiplayer basics
+│   └── week18/                #   Macros, procedural generation
+│
+└── phase5_capstone/           # Weeks 19-20: Capstone game project
+    ├── week19/                #   Design & build
+    └── week20/                #   Polish, publish, retrospective
+```
 
-**Structure**:
-- Week 1: Getting Started & Basics
-- Week 2: Ownership - The Core Concept
-- Week 3: Structs & Enums
-- Week 4: Modules & Collections
-- Week 5: Error Handling & Generics
-- Week 6: Testing & I/O
-- Week 7-8: Functional Programming & Advanced Concepts
-- Week 9: Concurrency
-- Week 10: Object-Oriented & Patterns
-- Week 11-12: Advanced Features
-- Week 13: Final Project (Multithreaded Web Server)
+## Roadmap at a Glance
 
-### [REVISION_SCHEDULE.md](REVISION_SCHEDULE.md)
-A spaced repetition revision schedule to help retain concepts:
-- Weekly quick reviews (15-20 minutes)
-- End-of-week comprehensive reviews
-- Monthly major review sessions
-- Topic-specific deep dives for weak areas
-- Progress tracking with self-assessment
-- Active recall questions for each topic
+| Phase | Weeks | Focus | Milestone Game |
+|-------|-------|-------|----------------|
+| **1 - Fundamentals** | 1-5 | Core Rust through terminal games | Text RPG with inventory |
+| **2 - Game Foundations** | 6-9 | 2D game dev with macroquad | Breakout clone |
+| **3 - Intermediate** | 10-14 | Bevy ECS, intermediate Rust | Top-down shooter or platformer |
+| **4 - Advanced** | 15-18 | Concurrency, networking, macros | Multiplayer prototype |
+| **5 - Capstone** | 19-20 | Full game from scratch | Your own game |
 
-## 🚀 Getting Started
+## Key Technologies
 
-1. **Install Rust**: Follow the instructions in Day 1 of the learning plan
-2. **Clone rustlings**: `git clone https://github.com/rust-lang/rustlings`
-3. **Start with LEARNING_PLAN.md**: Begin with Day 1
-4. **Check off progress**: Mark items as complete as you go
-5. **Follow REVISION_SCHEDULE.md**: Review regularly to reinforce learning
+| Tool | Purpose | When Introduced |
+|------|---------|-----------------|
+| [Rust & Cargo](https://www.rust-lang.org/) | Language & build system | Week 1 |
+| [Rustlings](https://github.com/rust-lang/rustlings) | Bite-sized exercises | Weeks 1-5 |
+| [macroquad](https://macroquad.rs/) | Simple 2D game framework | Week 6 |
+| [Bevy](https://bevyengine.org/) | Full ECS game engine | Week 10 |
+| [wgpu](https://wgpu.rs/) | Low-level GPU (reference) | Week 15+ |
 
-## ✅ Progress Tracking
+## Getting Started
+
+1. **Install Rust**: `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh` (or [rustup.rs](https://rustup.rs/) on Windows)
+2. **Clone rustlings**: `cargo install rustlings` then `rustlings init`
+3. **Open `LEARNING_PLAN.md`**: Start with Phase 1, Week 1, Day 1
+4. **Follow `REVISION_SCHEDULE.md`**: Review regularly to lock in knowledge
+5. **Build every project**: Type the code yourself, experiment, break things
+
+## Progress Tracking
 
 ### Current Status
-- Learning Plan: Day __ of 48
-- Current Week: __
-- Current Chapter: __
+- **Phase**: __ of 5
+- **Week**: __ of 20
+- **Current Day**: __ of 70
 
-### Completed Milestones
-- [ ] Week 1: Basics completed
-- [ ] Week 2: Ownership mastered
-- [ ] Week 3: Structs & Enums
-- [ ] Week 4: Collections & Modules
-- [ ] Week 5: Error Handling & Generics
-- [ ] Month 1 Review completed
-- [ ] Week 6: Testing & I/O
-- [ ] Week 7-8: Functional Programming
-- [ ] Week 9: Concurrency
-- [ ] Week 10: OOP Patterns
-- [ ] Month 2 Review completed
-- [ ] Week 11-12: Advanced Features
-- [ ] Week 13: Final Project
+### Milestones
+- [ ] Phase 1 complete -- Core Rust fundamentals, text RPG built
+- [ ] Phase 2 complete -- 2D game dev basics, Breakout clone shipped
+- [ ] Phase 3 complete -- Bevy proficiency, intermediate game shipped
+- [ ] Phase 4 complete -- Advanced Rust, multiplayer prototype
+- [ ] Phase 5 complete -- Capstone game designed, built, and polished
 - [ ] All rustlings exercises completed
 
-## 📖 Additional Resources
+## Resources
 
-- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
-- [Rustlings Exercises](https://github.com/rust-lang/rustlings)
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-- [Rust Standard Library Documentation](https://doc.rust-lang.org/std/)
+### Rust Language
+- [The Rust Programming Language Book](https://doc.rust-lang.org/book/) -- the canonical reference
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) -- learn by doing
+- [Rustlings](https://github.com/rust-lang/rustlings) -- small exercises
+- [Rust Standard Library Docs](https://doc.rust-lang.org/std/)
 - [This Week in Rust](https://this-week-in-rust.org/)
+- [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
-## 🎓 Learning Approach
+### Game Development in Rust
+- [Are We Game Yet?](https://arewegameyet.rs/) -- Rust gamedev ecosystem overview
+- [Bevy Book](https://bevyengine.org/learn/book/introduction/) -- official Bevy guide
+- [Bevy Cheat Book](https://bevy-cheatbook.github.io/) -- unofficial but excellent
+- [macroquad examples](https://macroquad.rs/examples/) -- learn by example
+- [Rust GameDev Working Group](https://gamedev.rs/) -- news and resources
+- [Rust GameDev Newsletter](https://gamedev.rs/newsletter/) -- monthly updates
+- [Hands-on Rust (book)](https://pragprog.com/titles/hwrust/hands-on-rust/) -- Herbert Wolverson's bracket-lib guide
 
-This study plan emphasizes:
-1. **Deep Understanding**: Every concept includes "why it matters" explanations
-2. **Active Learning**: Hands-on coding exercises and experiments
-3. **Regular Review**: Spaced repetition prevents forgetting
-4. **Self-Assessment**: Regular checks on understanding
-5. **Practical Application**: Real projects to apply concepts
-
-## 📝 Notes
-
-- This is a living document - update it as you progress
-- Customize the schedule based on your pace
-- Don't skip revision sessions - they're crucial for retention
-- Focus on understanding, not speed
+### Community
+- [r/rust](https://reddit.com/r/rust) and [r/rust_gamedev](https://reddit.com/r/rust_gamedev)
+- [Rust Discord](https://discord.gg/rust-lang) -- #gamedev channel
+- [Bevy Discord](https://discord.gg/bevy)
 
 ---
 
-**Start Date**: _______________  
-**Target Completion**: _______________ (approximately 13 weeks)
-
-Let's learn Rust! 🦀
+**Start Date**: _______________
+**Target Completion**: _______________ (approximately 20 weeks)
